@@ -40,4 +40,3 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 	free(current); /* The shackles of existence are shattered */
 	return (1); /* Return triumphant, a node deleted, a balance restored */
 }
-
