@@ -9,11 +9,11 @@
  */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
-	if (*head == NULL) /* If the universe is already empty, can't delete */
-		return (-1);
-
 	dlistint_t *current = *head; /* Traverse the vast cosmos */
 	unsigned int i = 0; /* Keep track of our steps, starting from 0 */
+
+	if (*head == NULL) /* If the universe is already empty, can't delete */
+		return (-1);
 
 	if (index == 0) /* Delete at the beginning, a new era begins */
 	{
